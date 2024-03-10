@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main(){
+    int m,i,j,a,n;
+    printf("Enter the value of 'a' : ");
+    scanf("%d",&a);
+    if(a<2)
+        printf("Invalid input.");
+    else{
+    n=0;
+        printf("\nPattern 4 : \n");
+        for(i=a;i>0;i--){
+            for(m=i;m>0;m--)
+                printf(" ");
+            for(j=0;j<n;j++){
+                printf("* ");
+            }
+            n++;
+            printf("\n");
+        }
+  }
+}
