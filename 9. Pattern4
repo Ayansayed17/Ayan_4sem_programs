@@ -1,3 +1,9 @@
+* * * * *  
+ * * * *
+  * * * 
+   * *
+    *
+
 #include<stdio.h>
 void main(){
     int m,i,j,a,n;
